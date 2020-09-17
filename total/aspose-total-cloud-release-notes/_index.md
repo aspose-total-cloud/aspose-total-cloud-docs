@@ -2,7 +2,7 @@
 title: "Aspose.Total Cloud Release Notes"
 type: docs
 url: /aspose-total-cloud-release-notes/
-weight: 180
+weight: 11
 ---
 
 {{% alert color="primary" %}} 
