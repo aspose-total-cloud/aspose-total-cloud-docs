@@ -2,7 +2,7 @@
 title: "Migration from obsolete Aspose.Storage Cloud to Micro Service based Cloud Storage"
 type: docs
 url: /migration-from-obsolete-aspose-storage-cloud-to-micro-service-based-cloud-storage/
-weight: 190
+weight: 12
 ---
 
 {{% alert color="primary" %}} 
