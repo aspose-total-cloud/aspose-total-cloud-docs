@@ -14,19 +14,19 @@ This page contains the links to release notes for all Cloud APIs included in Asp
 
 |**Sr. #**|**Cloud API**|**Latest version**|**Release Notes**|
 | :- | :- | :- | :- |
-|1|Aspose.Words Cloud|19.12|[Aspose.Words Cloud 19.12](https://docs.aspose.cloud/display/wordscloud/Aspose.Words+Cloud+19.12+Release+Notes)|
-|2|Aspose.PDF Cloud|20.2|[Aspose.PDF Cloud 20.2](https://docs.aspose.cloud/display/pdfcloud/Aspose.PDF+Cloud+20.2+Release+Notes)|
-|3|Aspose.Cells Cloud|19.12|[Aspose.Cells Cloud 19.12](https://docs.aspose.cloud/display/cellscloud/Aspose.Cells+Cloud+19.12+Release+Notes)|
-|4|Aspose.Email Cloud|20.1|[Aspose.Email Cloud 20.1](https://docs.aspose.cloud/display/emailcloud/Aspose.Email+Cloud+20.1+Release+Notes)|
-|5|Aspose.Slides Cloud|20.1|[Aspose.Slides Cloud 20.1](https://docs.aspose.cloud/display/slidescloud/Aspose.Slides+Cloud+20.1+release+notes)|
-|6|Aspose.Imaging Cloud|20.1|[Aspose.Imaging Cloud 20.1](https://docs.aspose.cloud/display/imagingcloud/Aspose.Imaging+Cloud+20.1+-+Release+Notes)|
-|7|Aspose.BarCode Cloud|18.3|[Aspose.BarCode Cloud 18.3](https://docs.aspose.cloud/display/barcodecloud/Aspose.BarCode+Cloud+18.3+Release+Notes)|
-|8|Aspose.Diagram Cloud|19.10|[Aspose.Diagram Cloud 19.10](https://docs.aspose.cloud/display/diagramcloud/Aspose.Diagram+Cloud+19.10+Release+Notes)|
-|9|Aspose.Tasks Cloud|19.12|[Aspose.Tasks Cloud 19.12](https://docs.aspose.cloud/display/taskscloud/Aspose.Tasks+Cloud+19.12+Release+Notes)|
-|10|Aspose.OCR Cloud|18.6|[Aspose.OCR Cloud 18.6](https://docs.aspose.cloud/display/ocrcloud/Aspose.OCR+Cloud+18.06+Release+Notes)|
-|11|Aspose.OMR Cloud|19.2|[Aspose.OMR Cloud 19.2](https://docs.aspose.cloud/display/omrcloud/Aspose.OMR+Cloud+19.2+Release+Notes)|
-|12|Aspose.CAD Cloud|17.11|[Aspose.CAD Cloud 17.11](https://docs.aspose.cloud/display/cadcloud/Aspose.CAD+Cloud+17.11+Release+Notes)|
-|13|Aspose.3D Cloud|19.11|[Aspose.3D Cloud 19.11](https://docs.aspose.cloud/display/3dcloud/Aspose.3D+Cloud+Release+Notes+19.11)|
-|14|Aspose.HTML Cloud|19.11|[Aspose.HTML Cloud 19.11](https://docs.aspose.cloud/display/htmlcloud/Aspose.HTML+Cloud+19.11+Release+Notes)|
-|15|Aspose.Video Cloud|18.2.1|[Aspose.Video Cloud 18.2.1](https://docs.aspose.cloud/display/videocloud/Aspose.Video+Cloud+18.2.1+Release+Notes)|
+|1|Aspose.Words Cloud|20.8|[Aspose.Words Cloud 20.8](https://docs2.aspose.cloud/words/aspose-words-cloud-20-8-release-notes/)|
+|2|Aspose.PDF Cloud|20.8|[Aspose.PDF Cloud 20.8](https://docs2.aspose.cloud/pdf/aspose-pdf-cloud-20-8-release-notes/)|
+|3|Aspose.Cells Cloud|20.8|[Aspose.Cells Cloud 20.8](https://docs.aspose.cloud/cells/aspose-cells-cloud-20-8-release-notes/)|
+|4|Aspose.Email Cloud|20.7|[Aspose.Email Cloud 20.7](https://docs.aspose.cloud/email/aspose-email-cloud-20-7-release-notes/)|
+|5|Aspose.Slides Cloud|20.7|[Aspose.Slides Cloud 20.7](https://docs.aspose.cloud/slides/aspose-slides-cloud-20-7-release-notes/)|
+|6|Aspose.Imaging Cloud|20.7|[Aspose.Imaging Cloud 20.7](https://docs.aspose.cloud/imaging/aspose-imaging-cloud-20-7-release-notes/)|
+|7|Aspose.BarCode Cloud|20.8|[Aspose.BarCode Cloud 20.8](https://docs.aspose.cloud/barcode/aspose-barcode-cloud-20-8-release-notes/)|
+|8|Aspose.Diagram Cloud|19.10|[Aspose.Diagram Cloud 20.3](https://docs.aspose.cloud/diagram/aspose-diagram-cloud-20-3-release-notes/)|
+|9|Aspose.Tasks Cloud|20.8|[Aspose.Tasks Cloud 20.8](https://docs.aspose.cloud/tasks/aspose-tasks-cloud-20-8-release-notes/)|
+|10|Aspose.OCR Cloud|20.3|[Aspose.OCR Cloud 20.3](https://docs.aspose.cloud/ocr/aspose-ocr-for-cloud-20-03-release-notes/)|
+|11|Aspose.OMR Cloud|19.2|[Aspose.OMR Cloud 19.2](https://docs.aspose.cloud/omr/aspose-omr-cloud-19-2-release-notes/)|
+|12|Aspose.CAD Cloud|17.11|[Aspose.CAD Cloud 17.11](https://docs.aspose.cloud/cad/aspose-cad-cloud-17-11-release-notes/)|
+|13|Aspose.3D Cloud|20.5|[Aspose.3D Cloud 20.5](https://docs.aspose.cloud/3d/aspose-3d-cloud-release-notes-20-5/)|
+|14|Aspose.HTML Cloud|20.8|[Aspose.HTML Cloud 20.8](https://docs.aspose.cloud/html/aspose-html-cloud-20-08-release-notes/)|
+|15|Aspose.Video Cloud|18.2.1|[Aspose.Video Cloud 18.2.1](https://docs.aspose.cloud/video/aspose-video-cloud-18-2-1-release-notes/)|
 
