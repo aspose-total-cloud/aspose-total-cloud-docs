@@ -60,13 +60,9 @@ The endpoint acts as an authorization server and it verifies your credentials, i
 ```java
 
 curl -v "https://api.aspose.cloud/connect/token" \
-
 -X POST \
-
 -d "grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx" \
-
 -H "Content-Type: application/x-www-form-urlencoded" \
-
 -H "Accept: application/json"
 
 ```
@@ -109,15 +105,10 @@ Now that you have the Bearer Token (access\_token) generated using the applicati
 // cURL example to append a document
 
 curl -v "https://api.aspose.cloud/v4.0/words/test\_doc.docx/appendDocument" \
-
 -X PUT \
-
 -d "{'DocumentEntries':[{'Href':'test\_multi\_pages.docx', 'ImportFormatMode':'KeepSourceFormatting'}]}" \
-
 -H "Content-Type: application/json" \
-
 -H "Accept: application/json" \
-
 -H "Authorization: Bearer <jwt token>"
 
 ```

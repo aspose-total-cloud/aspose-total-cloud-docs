@@ -56,13 +56,9 @@ For each Application you create in the dashboard, you can only have one refresh\
 ```java
 
 curl -v "https://api.aspose.cloud/oauth2/token" \
-
 -X POST \
-
 -d 'grant\_type=client\_credentials&client\_id=91a2fd07-bba1-4b32-9112-abfb1fe8aebd&client\_secret=0fbf678c5ecabdb5caca48452a736dd0' \
-
 -H "Content-Type: application/x-www-form-urlencoded" \
-
 -H "Accept: application/json"
 
 ```
@@ -118,13 +114,9 @@ The returned ticket will be the same as the above, but a new refresh\_token is i
 ```java
 
 curl -v "https://api.aspose.cloud/oauth2/token" \
-
 -X POST \
-
 -d 'grant\_type=refresh\_token&refresh\_token=ae1d4e78f9af45539d6daa44ddbba579' \
-
 -H "Content-Type: application/x-www-form-urlencoded" \
-
 -H "Accept: application/json"
 
 ```
@@ -175,13 +167,9 @@ Now that you have the Bearer Token (access\_token) generated using the applicati
 ```java
 
 curl -v "https://api.aspose.cloud/v1.1/cells/myWorkbook.xlsx/documentproperties" \
-
 -X GET \
-
 -H "Content-Type: application/json" \
-
 -H "Accept: application/json" \
-
 -H "Authorization: Bearer VvrtTA8PodA3XbdHsmLvXX0T5k0ge-Nk67NjQx7-3W2YGU\_JbPYD7E9bqlNdnYcw7zdoEfrKZKKfYRn\_4ADWFngoOQPNp1S5udD1ZCqlIQeJ\_WUoUOiSmBfnlgaAkwjMQhKKdL5vzTVu1BLsdiTGrKZw54JdfylTABl4OcQWUtmferlhmZjSzyuFT8ppiuOTxYbiYhVq-KAvNrT1xbYP4JED98nH7CQykbHmznavYedR2PjJ79N2k4riFV9e-F4MmanBOdufqSfs6fFMLlqsmCLQCGbVpHOvQLQcdaaAqmAEWEnp9jiorQIc-phoLnBQgtTQT1vumvP3ecdpxnbBdLP2rru7kv\_mGm28uoPv18YKeEiM62Pda04cvjozOyb8G9a6j9R8pqglluuGypaZG\_-jdFygR28yIXBpQK18SGRmxE-N"
 
 ```

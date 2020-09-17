@@ -131,17 +131,12 @@ Now use following code to convert a PDF document to Word. Please set App Key and
 ```java
 
 // First get Access Token
-
 // Get App Key and App SID from https://dashboard.aspose.cloud/
 
 curl -v "https://api.aspose.cloud/oauth2/token" \
-
 -X POST \
-
 -d 'grant\_type=client\_credentials&client\_id=0B17F60A-6D69-426B-9ABD-79F35A6E9F7B&client\_secret=53b8b19adffa41a3e87dbbd8858977ae' \
-
 -H "Content-Type: application/x-www-form-urlencoded" \
-
 -H "Accept: application/json"
 
 
@@ -149,15 +144,10 @@ curl -v "https://api.aspose.cloud/oauth2/token" \
 // cURL example to convert PDF Document to Word
 
 curl -v "https://api.aspose.cloud/v1.1/words/awesome\_table\_in\_pdf.pdf/saveAs" \
-
 -X POST \
-
 -d '{"SaveFormat":"docx", "FileName": "awesome\_table\_in\_pdf.docx"}' \
-
 -H "Content-Type: application/json" \
-
 -H "Accept: application/json" \
-
 -H "Authorization: Bearer GyT9x5vXv6x-KtAcEvVNx2Wthay1eYe8IX9Limpa59i-WR212MoRPrM6SAK\_qDxKypsZQGb1absQvAv70WzPmcvyc7bWZleEz9xeO\_MT97r9e6DLkR3eOox\_cAmf3wlq3gg4zMN830vilo7DaQBBRGIh3pO6PvwGOrxNgA1N6zcgmrnPal9RhHdAdBuzoM\_CHuWT8FVPOBl1PUVUfVf3ULWiKUtGtGCodYpFYtary5ruFCRDwCvBtirIK7sbAC-LVVupenFLwD4-vlWDXPzb7ztI\_m3Pmy\_WE23ChkK\_-\_GLA5BREKamK3yDbiShXxxsYgqE2aHKSuHmwOk\_aGrGjWDG0eyC5dBp-X-fVI2Ud8tuwuI0wyKpA0wx6pYFsJ64viYYD\_j4jKFYbqqGlf3tk-JVrWl57e41CUdimoIzXDbOL0Po"
 
 ```
