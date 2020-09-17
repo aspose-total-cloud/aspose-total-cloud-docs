@@ -26,13 +26,13 @@ There are two ways to authenticate Aspose for Cloud REST APIs.
 
 Though we are still supporting URL Signing, we recommend our users to switch to OAuth 2.0 as it is an industry standard and more convenient to use.
 ### **OAuth 2.0**
-The Aspose for Cloud REST API supports the OAuth 2.0 protocol using the **client\_credentials** workflow to authorize calls.
+The Aspose for Cloud REST API supports the OAuth 2.0 protocol using the **client_credentials** workflow to authorize calls.
 
 [OAuth 2.0](https://en.wikipedia.org/wiki/OAuth#OAuth_2.0) is an authorization framework that enables applications to obtain access to user accounts data through our REST API. OAuth provides authorization flows for web and desktop applications, and mobile devices.
 
 The basic concept and how it works is described in the next image:
 #### **Applications**
-To access the REST API using OAuth2.0 protocol, you need to [create an application](/create-new-app-and-get-app-key-and-sid/). To register new applications, login into the [Dashboard Developer](https://dashboard.aspose.cloud/#/) site using your Aspose Account, and go to the [My Apps](https://dashboard.aspose.cloud/#/apps) view. Once you create a new application, we will issue a **client\_id** (App SID**)** and **client\_secret** (App Key) that you can use to authenticate your REST API calls using the OAuth2.0 protocol. (You can generate new secrets for your Apps, but make sure you update it when issuing new access tokens using those credentials.)
+To access the REST API using OAuth2.0 protocol, you need to [create an application](/create-new-app-and-get-app-key-and-sid/). To register new applications, login into the [Dashboard Developer](https://dashboard.aspose.cloud/#/) site using your Aspose Account, and go to the [My Apps](https://dashboard.aspose.cloud/#/apps) view. Once you create a new application, we will issue a **client_id** (App SID**)** and **client_secret** (App Key) that you can use to authenticate your REST API calls using the OAuth2.0 protocol. (You can generate new secrets for your Apps, but make sure you update it when issuing new access tokens using those credentials.)
 #### **Get Access/Refresh Token**
 After you have created a new application you can obtain an access token by sending a **POST** request to **/oauth2/token** endpoint. Still, you must authenticate your access token request using Client Credentials authorization grant type flow:
 
@@ -41,13 +41,13 @@ After you have created a new application you can obtain an access token by sendi
     Accept: application/json
     Content-Type: application/x-www-form-urlencoded
     Body:
-      grant\_type: client\_credentials
-      client\_id: APP\_SID
-      client\_secret: APP\_KEY
+      grant_type: client_credentials
+      client_id: APP_SID
+      client_secret: APP_KEY
 
-The endpoint acts as an authorization server and it verifies your credentials, if they are correct it returns a JSON ticket containing several items, through each, you can find the access\_token, refresh\_token, expire time of both tokens etc. The provided access\_token is a Bearer Token that you can further use in the Authorization header of your request.
+The endpoint acts as an authorization server and it verifies your credentials, if they are correct it returns a JSON ticket containing several items, through each, you can find the access_token, refresh_token, expire time of both tokens etc. The provided access_token is a Bearer Token that you can further use in the Authorization header of your request.
 
-For each Application you create in the dashboard, you can only have one refresh\_token in use for it. Any new request for refresh\_token will override and revoke the previous one.
+For each Application you create in the dashboard, you can only have one refresh_token in use for it. Any new request for refresh_token will override and revoke the previous one.
 ##### **cURL Example**
 {{< tabs tabTotal="2" tabID="2" tabName1="Request" tabName2="Response" >}}
 
@@ -57,7 +57,7 @@ For each Application you create in the dashboard, you can only have one refresh\
 
 curl -v "https://api.aspose.cloud/oauth2/token" \
 -X POST \
--d 'grant\_type=client\_credentials&client\_id=91a2fd07-bba1-4b32-9112-abfb1fe8aebd&client\_secret=0fbf678c5ecabdb5caca48452a736dd0' \
+-d 'grant_type=client_credentials&client_id=91a2fd07-bba1-4b32-9112-abfb1fe8aebd&client_secret=0fbf678c5ecabdb5caca48452a736dd0' \
 -H "Content-Type: application/x-www-form-urlencoded" \
 -H "Accept: application/json"
 
@@ -71,15 +71,15 @@ curl -v "https://api.aspose.cloud/oauth2/token" \
 
 {
 
-  "access\_token": "VvrtTA8PodA3XbdHsmLvXX0T5k0ge-Nk67NjQx7-3W2YGU\_JbPYD7E9bqlNdnYcw7zdoEfrKZKKfYRn\_4ADWFngoOQPNp1S5udD1ZCqlIQeJ\_WUoUOiSmBfnlgaAkwjMQhKKdL5vzTVu1BLsdiTGrKZw54JdfylTABl4OcQWUtmferlhmZjSzyuFT8ppiuOTxYbiYhVq-KAvNrT1xbYP4JED98nH7CQykbHmznavYedR2PjJ79N2k4riFV9e-F4MmanBOdufqSfs6fFMLlqsmCLQCGbVpHOvQLQcdaaAqmAEWEnp9jiorQIc-phoLnBQgtTQT1vumvP3ecdpxnbBdLP2rru7kv\_mGm28uoPv18YKeEiM62Pda04cvjozOyb8G9a6j9R8pqglluuGypaZG\_-jdFygR28yIXBpQK18SGRmxE-N",
+  "access_token": "VvrtTA8PodA3XbdHsmLvXX0T5k0ge-Nk67NjQx7-3W2YGU_JbPYD7E9bqlNdnYcw7zdoEfrKZKKfYRn_4ADWFngoOQPNp1S5udD1ZCqlIQeJ_WUoUOiSmBfnlgaAkwjMQhKKdL5vzTVu1BLsdiTGrKZw54JdfylTABl4OcQWUtmferlhmZjSzyuFT8ppiuOTxYbiYhVq-KAvNrT1xbYP4JED98nH7CQykbHmznavYedR2PjJ79N2k4riFV9e-F4MmanBOdufqSfs6fFMLlqsmCLQCGbVpHOvQLQcdaaAqmAEWEnp9jiorQIc-phoLnBQgtTQT1vumvP3ecdpxnbBdLP2rru7kv_mGm28uoPv18YKeEiM62Pda04cvjozOyb8G9a6j9R8pqglluuGypaZG_-jdFygR28yIXBpQK18SGRmxE-N",
 
-  "token\_type": "bearer",
+  "token_type": "bearer",
 
-  "expires\_in": 86399,
+  "expires_in": 86399,
 
-  "refresh\_token": "ae1d4e78f9af45539d6daa44ddbba579",
+  "refresh_token": "ae1d4e78f9af45539d6daa44ddbba579",
 
-  "client\_id": "91a2fd07-bba1-4b32-9112-abfb1fe8aebd",
+  "client_id": "91a2fd07-bba1-4b32-9112-abfb1fe8aebd",
 
   "clientRefreshTokenLifeTimeInMinutes": "525600",
 
@@ -102,10 +102,10 @@ The access token is only valid for a small period of time, to continue to work w
     Accept: application/json
     Content-Type: application/x-www-form-urlencoded
     Body:
-      grant\_type: refresh\_token
-      refresh\_token: the-refresh-token-perviously-generated
+      grant_type: refresh_token
+      refresh_token: the-refresh-token-perviously-generated
 
-The returned ticket will be the same as the above, but a new refresh\_token is issued now and the old one is revoked, so make sure you replace it in your application with the new one from the ticket you just received.
+The returned ticket will be the same as the above, but a new refresh_token is issued now and the old one is revoked, so make sure you replace it in your application with the new one from the ticket you just received.
 ##### **cURL Example**
 {{< tabs tabTotal="2" tabID="5" tabName1="Request" tabName2="Response" >}}
 
@@ -115,7 +115,7 @@ The returned ticket will be the same as the above, but a new refresh\_token is i
 
 curl -v "https://api.aspose.cloud/oauth2/token" \
 -X POST \
--d 'grant\_type=refresh\_token&refresh\_token=ae1d4e78f9af45539d6daa44ddbba579' \
+-d 'grant_type=refresh_token&refresh_token=ae1d4e78f9af45539d6daa44ddbba579' \
 -H "Content-Type: application/x-www-form-urlencoded" \
 -H "Accept: application/json"
 
@@ -129,15 +129,15 @@ curl -v "https://api.aspose.cloud/oauth2/token" \
 
 {
 
-  "access\_token": "nkNK16oOZl3aUsa0UdHvkmgMiO-tuTw9HWRGMFlKAVZA6p4QVXCevKwjKThO5B6XERMAGPhAZAx-qrPj1JCArmYcXKnE-HtaKPGzciwovAzfatguLfOosvmi9ZXMXro9SL9wy5usnclEs1ronLncys1rHIqtEHNzYVUvitWvW71TZ0xtez7yE3fWDwAFUHa3SLfvkP45DwVcPkPDquS6X\_tKi252W-gn3JZ\_11nvos5Du0wt9EZ1\_c0SgnhaNBJOI04mE1E0EscQf-lwSdhQCWKXpsEiUccmOJhLrxh6t0qyENrhFRfgMmzv8\_w4LWx5qWnM44PlwkBj0kvJejrLe1GeYSaLouu3gQsfPo2M\_z8FCwjNWWm6v20uKh9Jqizf0IQFNBdrPFaykjsj66oea2YKEjGY8n4T46FC9UP73rvLIseW48c99EUKTLphjKR\_Ab\_Tcw",
+  "access_token": "nkNK16oOZl3aUsa0UdHvkmgMiO-tuTw9HWRGMFlKAVZA6p4QVXCevKwjKThO5B6XERMAGPhAZAx-qrPj1JCArmYcXKnE-HtaKPGzciwovAzfatguLfOosvmi9ZXMXro9SL9wy5usnclEs1ronLncys1rHIqtEHNzYVUvitWvW71TZ0xtez7yE3fWDwAFUHa3SLfvkP45DwVcPkPDquS6X_tKi252W-gn3JZ_11nvos5Du0wt9EZ1_c0SgnhaNBJOI04mE1E0EscQf-lwSdhQCWKXpsEiUccmOJhLrxh6t0qyENrhFRfgMmzv8_w4LWx5qWnM44PlwkBj0kvJejrLe1GeYSaLouu3gQsfPo2M_z8FCwjNWWm6v20uKh9Jqizf0IQFNBdrPFaykjsj66oea2YKEjGY8n4T46FC9UP73rvLIseW48c99EUKTLphjKR_Ab_Tcw",
 
-  "token\_type": "bearer",
+  "token_type": "bearer",
 
-  "expires\_in": 86399,
+  "expires_in": 86399,
 
-  "refresh\_token": "48b76a316aa34431bb6b973c91cbd1fa",
+  "refresh_token": "48b76a316aa34431bb6b973c91cbd1fa",
 
-  "client\_id": "91a2fd07-bba1-4b32-9112-abfb1fe8aebd",
+  "client_id": "91a2fd07-bba1-4b32-9112-abfb1fe8aebd",
 
   "clientRefreshTokenLifeTimeInMinutes": "525600",
 
@@ -153,10 +153,10 @@ curl -v "https://api.aspose.cloud/oauth2/token" \
 
 {{< /tabs >}}
 #### **Call REST API**
-Now that you have the Bearer Token (access\_token) generated using the application credentials, you can make API calls and authorize by adding the access token in the ‘Authorization’ header, as it’s defined in the OAuth 2.0 protocol.
+Now that you have the Bearer Token (access_token) generated using the application credentials, you can make API calls and authorize by adding the access token in the ‘Authorization’ header, as it’s defined in the OAuth 2.0 protocol.
 
   Headers:
-    Authorization: Bearer ACCESS\_TOKEN
+    Authorization: Bearer ACCESS_TOKEN
 
 *You authorize with one application, but you can access files from all storages in your account, or all Application’s default storage by specifying query parameters (storage or AppSid).*
 ##### **cURL Example**
@@ -170,7 +170,7 @@ curl -v "https://api.aspose.cloud/v1.1/cells/myWorkbook.xlsx/documentproperties"
 -X GET \
 -H "Content-Type: application/json" \
 -H "Accept: application/json" \
--H "Authorization: Bearer VvrtTA8PodA3XbdHsmLvXX0T5k0ge-Nk67NjQx7-3W2YGU\_JbPYD7E9bqlNdnYcw7zdoEfrKZKKfYRn\_4ADWFngoOQPNp1S5udD1ZCqlIQeJ\_WUoUOiSmBfnlgaAkwjMQhKKdL5vzTVu1BLsdiTGrKZw54JdfylTABl4OcQWUtmferlhmZjSzyuFT8ppiuOTxYbiYhVq-KAvNrT1xbYP4JED98nH7CQykbHmznavYedR2PjJ79N2k4riFV9e-F4MmanBOdufqSfs6fFMLlqsmCLQCGbVpHOvQLQcdaaAqmAEWEnp9jiorQIc-phoLnBQgtTQT1vumvP3ecdpxnbBdLP2rru7kv\_mGm28uoPv18YKeEiM62Pda04cvjozOyb8G9a6j9R8pqglluuGypaZG\_-jdFygR28yIXBpQK18SGRmxE-N"
+-H "Authorization: Bearer VvrtTA8PodA3XbdHsmLvXX0T5k0ge-Nk67NjQx7-3W2YGU_JbPYD7E9bqlNdnYcw7zdoEfrKZKKfYRn_4ADWFngoOQPNp1S5udD1ZCqlIQeJ_WUoUOiSmBfnlgaAkwjMQhKKdL5vzTVu1BLsdiTGrKZw54JdfylTABl4OcQWUtmferlhmZjSzyuFT8ppiuOTxYbiYhVq-KAvNrT1xbYP4JED98nH7CQykbHmznavYedR2PjJ79N2k4riFV9e-F4MmanBOdufqSfs6fFMLlqsmCLQCGbVpHOvQLQcdaaAqmAEWEnp9jiorQIc-phoLnBQgtTQT1vumvP3ecdpxnbBdLP2rru7kv_mGm28uoPv18YKeEiM62Pda04cvjozOyb8G9a6j9R8pqglluuGypaZG_-jdFygR28yIXBpQK18SGRmxE-N"
 
 ```
 
@@ -545,9 +545,9 @@ curl -v "https://api.aspose.cloud/v1.1/cells/myWorkbook.xlsx/documentproperties"
 {{< /tabs >}}
 
 #### **Tokens Lifetime**
-The time of the tokens is finite. By default, the **access\_token** lifetime is **1 day**, and the **refresh\_token** lifetime is **1 year**. Before you create a new access\_token, use it and renew it only before it expires. To detect when an access token expires, you must write specific code that will check for any of these:
+The time of the tokens is finite. By default, the **access_token** lifetime is **1 day**, and the **refresh_token** lifetime is **1 year**. Before you create a new access_token, use it and renew it only before it expires. To detect when an access token expires, you must write specific code that will check for any of these:
 
-- **expires\_in** value in the ticket generated by OAuth2 endpoint.
+- **expires_in** value in the ticket generated by OAuth2 endpoint.
 - will handle the **401 Unauthorized** error responses from the API endpoint and issue a request for a new token.
 ### **URL Signing**
 Each Aspose for Cloud API request must include the following query string parameters:

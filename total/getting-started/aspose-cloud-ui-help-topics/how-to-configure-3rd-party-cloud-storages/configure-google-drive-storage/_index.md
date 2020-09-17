@@ -19,11 +19,11 @@ You have to complete following steps to configure the Storage:
 - In **APIs and Services** menu, click on **ENABLE APIS AND SERVICES** button and enable **Google Drive API**.
 - Go to **Credentials** options and add information in **OAuth consent screen**.
 
-![todo:image\_alt\_text](configure-google-drive-storage_1.jpg)
+![todo:image_alt_text](configure-google-drive-storage_1.jpg)
 
 - Now select **OAuth client ID** option under **Create Credentials** menu.
 
-![todo:image\_alt\_text](configure-google-drive-storage_2.jpg)
+![todo:image_alt_text](configure-google-drive-storage_2.jpg)
 
 - Select **Web Application** as Application Type.
 - Enter <https://dashboard.aspose.cloud/breeze/UserData/GetGoogleDriveCallback> in Authorised redirect URIs field.
@@ -31,7 +31,7 @@ You have to complete following steps to configure the Storage:
 
 
 
-![todo:image\_alt\_text](configure-google-drive-storage_3.jpg)
+![todo:image_alt_text](configure-google-drive-storage_3.jpg)
 
 - Once you have created **OAuth client ID**, take a note of Client ID and Client secret, we will use it shortly.
 - Open <https://dashboard.aspose.cloud/>, select **My Storage** tab**.**

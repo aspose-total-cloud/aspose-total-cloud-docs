@@ -90,7 +90,7 @@ Thesource code is available on [GitHub](https://github.com/aspose-words-cloud/as
 
 **Available as a [**gem](https://rubygems.org/gems/aspose_words_cloud)**:
 
-gem install aspose\_words\_cloud
+gem install aspose_words_cloud
 
 The source code is available on [GitHub](https://github.com/aspose-words-cloud/aspose-words-cloud-ruby).
 
@@ -135,7 +135,7 @@ Now use following code to convert a PDF document to Word. Please set App Key and
 
 curl -v "https://api.aspose.cloud/oauth2/token" \
 -X POST \
--d 'grant\_type=client\_credentials&client\_id=0B17F60A-6D69-426B-9ABD-79F35A6E9F7B&client\_secret=53b8b19adffa41a3e87dbbd8858977ae' \
+-d 'grant_type=client_credentials&client_id=0B17F60A-6D69-426B-9ABD-79F35A6E9F7B&client_secret=53b8b19adffa41a3e87dbbd8858977ae' \
 -H "Content-Type: application/x-www-form-urlencoded" \
 -H "Accept: application/json"
 
@@ -143,12 +143,12 @@ curl -v "https://api.aspose.cloud/oauth2/token" \
 
 // cURL example to convert PDF Document to Word
 
-curl -v "https://api.aspose.cloud/v1.1/words/awesome\_table\_in\_pdf.pdf/saveAs" \
+curl -v "https://api.aspose.cloud/v1.1/words/awesome_table_in_pdf.pdf/saveAs" \
 -X POST \
--d '{"SaveFormat":"docx", "FileName": "awesome\_table\_in\_pdf.docx"}' \
+-d '{"SaveFormat":"docx", "FileName": "awesome_table_in_pdf.docx"}' \
 -H "Content-Type: application/json" \
 -H "Accept: application/json" \
--H "Authorization: Bearer GyT9x5vXv6x-KtAcEvVNx2Wthay1eYe8IX9Limpa59i-WR212MoRPrM6SAK\_qDxKypsZQGb1absQvAv70WzPmcvyc7bWZleEz9xeO\_MT97r9e6DLkR3eOox\_cAmf3wlq3gg4zMN830vilo7DaQBBRGIh3pO6PvwGOrxNgA1N6zcgmrnPal9RhHdAdBuzoM\_CHuWT8FVPOBl1PUVUfVf3ULWiKUtGtGCodYpFYtary5ruFCRDwCvBtirIK7sbAC-LVVupenFLwD4-vlWDXPzb7ztI\_m3Pmy\_WE23ChkK\_-\_GLA5BREKamK3yDbiShXxxsYgqE2aHKSuHmwOk\_aGrGjWDG0eyC5dBp-X-fVI2Ud8tuwuI0wyKpA0wx6pYFsJ64viYYD\_j4jKFYbqqGlf3tk-JVrWl57e41CUdimoIzXDbOL0Po"
+-H "Authorization: Bearer GyT9x5vXv6x-KtAcEvVNx2Wthay1eYe8IX9Limpa59i-WR212MoRPrM6SAK_qDxKypsZQGb1absQvAv70WzPmcvyc7bWZleEz9xeO_MT97r9e6DLkR3eOox_cAmf3wlq3gg4zMN830vilo7DaQBBRGIh3pO6PvwGOrxNgA1N6zcgmrnPal9RhHdAdBuzoM_CHuWT8FVPOBl1PUVUfVf3ULWiKUtGtGCodYpFYtary5ruFCRDwCvBtirIK7sbAC-LVVupenFLwD4-vlWDXPzb7ztI_m3Pmy_WE23ChkK_-_GLA5BREKamK3yDbiShXxxsYgqE2aHKSuHmwOk_aGrGjWDG0eyC5dBp-X-fVI2Ud8tuwuI0wyKpA0wx6pYFsJ64viYYD_j4jKFYbqqGlf3tk-JVrWl57e41CUdimoIzXDbOL0Po"
 
 ```
 
@@ -162,7 +162,7 @@ curl -v "https://api.aspose.cloud/v1.1/words/awesome\_table\_in\_pdf.pdf/saveAs"
 
 {{< tab tabNum="3" >}}
 
-{{< gist "aspose-cloud" "303ca1faad43f8d1b672fbeac98ad2e0" "convert\_pdf\_to\_word.py" >}}
+{{< gist "aspose-cloud" "303ca1faad43f8d1b672fbeac98ad2e0" "convert_pdf_to_word.py" >}}
 
 {{< /tab >}}
 
