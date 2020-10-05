@@ -5,14 +5,6 @@ url: /overview-of-aspose-cloud-rest-api/
 weight: 20
 ---
 
-**Table of Contents**
-
-- [Introduction](#Introduction)
-- [API Basics](#APIBasics) 
-  - [Base URL](#BaseURL)
-  - [Versions](#Versions)
-  - [Routes](#Routes)
-  - [URI Structure](#URIStructure)
 ## **Introduction**
 This document outlines the design of a REST-based API for Aspose Cloud. It also covers the structure of REST URLs, as well as specific behavior linked to the API such as Authentication, Request Queuing, and Storage. The Aspose Cloud APIs will give developers access to all the key functions of the [downloadable Aspose components](https://www.aspose.com/) through a Software as a Service hosted model.
 
@@ -21,21 +13,21 @@ There will be 3 sub-components within the API design (*although these are largel
 - **Platform** - it covers elements of the Aspose Cloud platform. These elements are not directly linked to file format manipulation, such as Storage, Authentication, Queuing, etc;
 - **Common** - it covers the common elements of the API which are shared by all products;
 - **Product** - it covers product-specific areas for each product;
-  - [Aspose.Words Cloud](/aspose-words-cloud/)
-  - [Aspose.PDF Cloud](/aspose-pdf-cloud/)
-  - [Aspose.Cells Cloud](/aspose-cells-cloud/)
-  - [Aspose.Email Cloud](/aspose-email-cloud/)
-  - [Aspose.Slides Cloud](/aspose-slides-cloud/)
-  - [Aspose.Imaging Cloud](/aspose-imaging-cloud/)
-  - [Aspose.BarCode Cloud](/aspose-barcode-cloud/)
-  - [Aspose.Diagram Cloud](/aspose-diagram-cloud/)
-  - [Aspose.Tasks Cloud](/aspose-tasks-cloud/)
-  - [Aspose.OCR Cloud](/aspose-ocr-cloud/)
-  - [Aspose.OMR Cloud](/aspose-omr-cloud/)
-  - [Aspose.CAD Cloud](/aspose-cad-cloud/)
-  - Aspose.3D Cloud
-  - [Aspose.HTML Cloud](/aspose-html-cloud/)
-  - [Aspose.Video Cloud](/aspose-video-cloud/)
+  - [Aspose.Words Cloud](/total/aspose-words-cloud/)
+  - [Aspose.PDF Cloud](/total/aspose-pdf-cloud/)
+  - [Aspose.Cells Cloud](/total/aspose-cells-cloud/)
+  - [Aspose.Email Cloud](/total/aspose-email-cloud/)
+  - [Aspose.Slides Cloud](/total/aspose-slides-cloud/)
+  - [Aspose.Imaging Cloud](/total/aspose-imaging-cloud/)
+  - [Aspose.BarCode Cloud](/total/aspose-barcode-cloud/)
+  - [Aspose.Diagram Cloud](/total/aspose-diagram-cloud/)
+  - [Aspose.Tasks Cloud](/total/aspose-tasks-cloud/)
+  - [Aspose.OCR Cloud](/total/aspose-ocr-cloud/)
+  - [Aspose.OMR Cloud](/total/aspose-omr-cloud/)
+  - [Aspose.CAD Cloud](/total/aspose-cad-cloud/)
+  - [Aspose.3D Cloud](/total/aspose-3d-cloud/)
+  - [Aspose.HTML Cloud](/total/aspose-html-cloud/)
+  - [Aspose.Video Cloud](/total/aspose-video-cloud/)
 ## **API Basics**
 The Aspose Cloud API is a REST-based API for wide usability on the web across platforms. By default, the REST API returns XML formatted responses, but it is possible to get the response in JSON format by setting Content-Type to **application/json**. Accompanying the REST API will be Client SDKs for all major development platforms which will provide client libraries to make it very easy for developers to code against the Aspose Cloud APIs.
 #### **Base URL**
@@ -156,7 +148,7 @@ Within the API we will have Resources (each identified by a URI) and Operations 
 
 Default 'empty' request [https://api.aspose.cloud/v3.0](https://api.aspose.cloud/v1.1) redirects to service start page with a link to some helpful examples. Please check following articles for information regarding Request and Response Format and how to authenticate Aspose Cloud API request.
 
-- [Authenticating API Requests](/authenticating-api-requests-html/)
-- [JSON Web Token Authentication](/json-web-token-authentication-html/)
-- [Request Format](/request-format-html/)
-- [Response Format](/response-format-html/)
+- [Authenticating API Requests](/total/authenticating-api-requests/)
+- [JSON Web Token Authentication](/total/json-web-token-authentication/)
+- [Request Format](/total/request-format/)
+- [Response Format](/total/response-format/)
