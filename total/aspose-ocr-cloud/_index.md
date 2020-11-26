@@ -5,7 +5,6 @@ url: /aspose-ocr-cloud/
 weight: 110
 ---
 
-### **Aspose.OCR Cloud**
 *   [Overview](https://docs.aspose.cloud/ocr/overview/)
 *   [Supported File Formats](https://docs.aspose.cloud/ocr/supported-file-formats/)
 *   [Quickstart](https://docs.aspose.cloud/ocr/quickstart/)

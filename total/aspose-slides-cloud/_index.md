@@ -5,7 +5,6 @@ url: /aspose-slides-cloud/
 weight: 60
 ---
 
-### **Aspose.Slides Cloud**
 *   [Overview](https://docs.aspose.cloud/slides/overview/)
 *   [Aspose.Slides Cloud Features](https://docs.aspose.cloud/slides/aspose-slides-cloud-features/)
 *   [Supported Platforms](https://docs.aspose.cloud/slides/supported-platforms/)

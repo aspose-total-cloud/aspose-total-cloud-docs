@@ -5,7 +5,6 @@ url: /aspose-video-cloud/
 weight: 160
 ---
 
-### **Aspose.Video Cloud**
 *   [Overview](https://docs.aspose.cloud/video/overview/)
 *   [Supported File Formats](https://docs.aspose.cloud/video/supported-file-formats/)
 *   [Quickstart](https://docs.aspose.cloud/video/quickstart/)

@@ -5,7 +5,6 @@ url: /aspose-barcode-cloud/
 weight: 80
 ---
 
-### **Aspose.BarCode Cloud**
 *   [Overview](https://docs.aspose.cloud/barcode/overview/)
 *   [Supported File Formats](https://docs.aspose.cloud/barcode/supported-file-formats/)
 *   [Quickstart](https://docs.aspose.cloud/barcode/quickstart/)

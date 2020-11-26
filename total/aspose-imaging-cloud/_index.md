@@ -5,7 +5,6 @@ url: /aspose-imaging-cloud/
 weight: 70
 ---
 
-### **Aspose.Imaging Cloud**
 *   [Overview](https://docs.aspose.cloud/imaging/overview/)
 *   [Supported File Formats](https://docs.aspose.cloud/imaging/supported-file-formats/)
 *   [Quickstart](https://docs.aspose.cloud/imaging/quickstart/)
