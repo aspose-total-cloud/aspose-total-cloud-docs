@@ -5,7 +5,6 @@ url: /aspose-omr-cloud/
 weight: 120
 ---
 
-### **Aspose.OMR Cloud**
 *   [Overview](https://docs.aspose.cloud/omr/overview/)
 *   [Quickstart](https://docs.aspose.cloud/omr/quickstart/)
 *   [Available SDKs](https://docs.aspose.cloud/omr/available-sdks/)

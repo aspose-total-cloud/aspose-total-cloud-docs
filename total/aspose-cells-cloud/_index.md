@@ -5,7 +5,6 @@ url: /aspose-cells-cloud/
 weight: 40
 ---
 
-### **Aspose.Cells Cloud**
 *   [Overview](https://docs.aspose.cloud/cells/overview/)
 *   [Quickstart](https://docs.aspose.cloud/cells/quickstart/)
 *   [Available SDKs](https://docs.aspose.cloud/cells/available-sdks/)

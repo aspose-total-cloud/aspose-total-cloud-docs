@@ -5,7 +5,6 @@ url: /aspose-tasks-cloud/
 weight: 100
 ---
 
-### **Aspose.Tasks Cloud**
 *   [Overview](https://docs.aspose.cloud/tasks/overview/)
 *   [Quickstart](https://docs.aspose.cloud/tasks/quickstart/)
 *   [Supported File Formats](https://docs.aspose.cloud/tasks/supported-file-formats/)

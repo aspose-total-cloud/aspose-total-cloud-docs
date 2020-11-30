@@ -7,7 +7,6 @@ description: "Aspose.PDF Cloud allows developers to create PDF documents, whethe
 weight: 30
 ---
 
-### **Aspose.PDF Cloud**
 *   [Overview](https://docs.aspose.cloud/pdf/overview/)
 *   [Aspose.PDF Cloud Features](https://docs.aspose.cloud/pdf/aspose-pdf-cloud-features/)
 *   [Supported Document Formats](https://docs.aspose.cloud/pdf/supported-document-formats/)
