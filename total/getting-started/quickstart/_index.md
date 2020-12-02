@@ -132,7 +132,7 @@ Now use following code to convert a PDF document to Word. Please set `Client Id`
 // First get the Access Token
 // Get Client Id and Client Secret from https://dashboard.aspose.cloud/
 
-curl -v "https://api.aspose.cloud/oauth2/token" \
+curl -v "https://api.aspose.cloud/connect/token" \
 -X POST \
 -d 'grant_type=client_credentials&client_id=CLIENT_ID&client_secret=CLIENT_SECRET' \
 -H "Content-Type: application/x-www-form-urlencoded" \
