@@ -5,13 +5,8 @@ url: /getting-started/rest-api-overview/authenticating-api-requests/
 weight: 10
 ---
 
-There is only one way to authenticate Aspose Cloud REST APIs: by using [OAuth 2.0](https://tools.ietf.org/html/rfc6750) protocol with [JWT Bearer Token](https://tools.ietf.org/html/rfc7519).\
+There is only one way to authenticate Aspose Cloud REST APIs: [JWT Bearer Token](https://tools.ietf.org/html/rfc7519).\
 The ``` JWT token ``` is extracted and validated by our APIs from the ``` Authorization ``` request header.
-
-## OAuth 2.0 ##
-
-[OAuth 2.0](https://en.wikipedia.org/wiki/OAuth#OAuth_2.0) is an authorization framework that enables your applications to obtain access to data to different APIs.\
-OAuth provides authorization flows for web and desktop applications, and mobile devices.
 
 ## What is a JSON Web Token (JWT)? ##
 

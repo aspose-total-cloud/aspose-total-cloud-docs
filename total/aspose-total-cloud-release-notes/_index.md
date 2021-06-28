@@ -5,11 +5,11 @@ url: /aspose-total-cloud-release-notes/
 weight: 11
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 This page contains the links to release notes for all Cloud APIs included in Aspose.Total Cloud. 
 
-{{% /alert %}} 
+{{% /alert %}}
 ## **Links to Release Notes**
 
 |**Sr. #**|**Cloud API**|**Latest version**|**Release Notes**|
@@ -29,4 +29,3 @@ This page contains the links to release notes for all Cloud APIs included in Asp
 |13|Aspose.3D Cloud|20.5|[Aspose.3D Cloud 20.5](https://docs.aspose.cloud/3d/aspose-3d-cloud-release-notes-20-5/)|
 |14|Aspose.HTML Cloud|21.05|[Aspose.HTML Cloud 21.05](https://docs.aspose.cloud/html/aspose-html-cloud-21-05-release-notes/)|
 |15|Aspose.Video Cloud|18.2.1|[Aspose.Video Cloud 18.2.1](https://docs.aspose.cloud/video/aspose-video-cloud-18-2-1-release-notes/)|
-
