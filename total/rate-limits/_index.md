@@ -4,7 +4,6 @@ type: docs
 url: /rate-limits/
 weight: 1
 ---
-# Rate Limits
 
 This page provides information about Aspose.Cloud API rate limits.
 
