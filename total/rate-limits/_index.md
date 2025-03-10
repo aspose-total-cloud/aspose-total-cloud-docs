@@ -5,11 +5,11 @@ url: /rate-limits/
 weight: 1
 ---
 
-This page provides information about Aspose.Cloud API rate limits.
+This page provides information about Aspose Cloud API rate limits.
 
 ## Overview
 
-Aspose.Cloud implements rate limiting to ensure the stability and availability of our services. Rate limits specify the maximum number of requests a client can make to our API within a given time period.
+Aspose Cloud implements rate limiting to ensure the stability and availability of our services. Rate limits specify the maximum number of requests a client can make to our API within a given time period.
 
 ## Current Rate Limits
 
