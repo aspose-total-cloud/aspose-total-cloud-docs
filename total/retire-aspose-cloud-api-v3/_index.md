@@ -36,11 +36,11 @@ If you are still using one of the soon-to-be-retired versions, please migrate to
 
 #### To ensure uninterrupted access to Aspose Cloud services, we recommend the following:
 
-* #### Identify and update all requests to retired API versions and paths.
+* **Identify and update all requests to retired API versions and paths.**
 
-* #### Migrate to the latest supported versions (e.g., v4.0 or higher where applicable).
+* **Migrate to the latest supported versions (e.g., v4.0 or higher where applicable).**
 
-* #### Replace all uses of /oauth2/token with /connect/token. (Done automatically when using the latest SDK versions).
+* **Replace all uses of /oauth2/token with /connect/token. (Done automatically when using the latest SDK versions).**
 
 #### 🤝 We’re Here to Help
 
