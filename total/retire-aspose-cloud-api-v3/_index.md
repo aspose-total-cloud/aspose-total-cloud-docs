@@ -3,7 +3,7 @@ title: "Aspose Cloud Legacy API Retirement: Migration Guide & Deadlines"
 type: docs
 description: Legacy Aspose Cloud APIs are retiring by 15 Nov. Learn which versions are affected and how to migrate to the latest API versions for uninterrupted service.
 url: /retire-aspose-cloud-api-v3/
-weight: 1
+weight: 2
 ---
 ### **Important Notice: Migration Required as Legacy Aspose Cloud Versions Are Retiring**
 
