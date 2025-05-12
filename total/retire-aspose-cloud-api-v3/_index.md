@@ -33,7 +33,7 @@ If you are still using one of the soon-to-be-retired versions, please migrate to
 
 ## ‼️Recommended Actions
 
-### To ensure uninterrupted access to Aspose Cloud services, we recommend the following:
+**To ensure uninterrupted access to Aspose Cloud services, we recommend the following:**
 
 * **Identify and update all requests to retired API versions and paths.**
 
