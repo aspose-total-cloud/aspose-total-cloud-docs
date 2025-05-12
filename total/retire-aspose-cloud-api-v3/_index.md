@@ -15,8 +15,7 @@ This change is designed to streamline our services and focus development resourc
 
 Support for the following legacy API versions will be discontinued:
 
-## Support for API Versions 1.0, 1.1, and 2.0 of all Aspose Cloud products will be fully retired.
-
+* Support for **API Versions 1.0, 1.1, and 2.0** of all Aspose Cloud products will be fully retired.
 * **The following v3.0 modules**, which were used in legacy integrations, will also be discontinued:  
   * **Aspose.Words Cloud (v3.0)**  
   * **Aspose.PDF Cloud (v3.0)**  
